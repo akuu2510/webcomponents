@@ -30,3 +30,10 @@ class Template extends HTMLElement{
 
 }
 customElements.define("temp-late",Template);
+
+//  while custom elements define the behavior 
+// and functionality of web components, templates provide a mechanism 
+// for defining reusable markup structures within those components. 
+// Together, custom elements and templates enable developers 
+// to create encapsulated, 
+// reusable, and customizable components in web applications.

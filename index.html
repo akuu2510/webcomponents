@@ -6,6 +6,7 @@
         <script src = "./countElementLifecycle.js"></script>
         <script src = "./Template.js"></script>
         <script src = "./shadowDome.js"></script>
+        <script src="./slotEg.js"></script>
 
     </head>
 
@@ -31,6 +32,12 @@
     <br>
     <button> outside button 1</button>
     <button> outside button 2</button>
+    <slot-eg>
+        <h1 slot="header"> header content</h1> 
+        <span> main content </span>
+     <p slot = "footer" id =" foot1"> footer content </p>
+     <p slot = "footer" id = "foot1"> footer content </p>
+</slot-eg>
     </body>
 </html>
     
