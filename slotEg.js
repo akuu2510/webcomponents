@@ -11,6 +11,13 @@ class slotEg extends HTMLElement{
     ::slotted(#foot1){
         color : blue;
     }
+    ::slotted([slot="header"]){
+        color:green;
+    }
+    
+    main ::slotted(*) {
+        color:orange
+    }
     </style>
     <div>
     <header><slot name ="header">Fallback content for header</slot>
